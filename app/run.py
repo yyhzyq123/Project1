@@ -54,17 +54,8 @@ def index():
                     y=genre_counts
                 )
             ],
-
-            'layout': {
-                'title': 'Distribution of Message Genres',
-                'yaxis': {
-                    'title': "Number"
-                },
-                'xaxis': {
-                    'title': "Genre"
-                }
             }
-        }
+
     ]
 
     # encode plotly graphs in JSON
